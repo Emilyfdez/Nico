@@ -1,0 +1,48 @@
+body {
+  background-color: #ffdab9;
+  background-image: url("sova.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.corazon {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-image: url("sova.jpg");
+  /* Modificar la posición y el tamaño de los corazones */
+  top: 20%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+#btnSorpresa {
+  background-color: #ffcccb;
+  border: none;
+  color: #000;
+  padding: 20px 40px;
+  font-size: 24px;
+  font-family: "Imprenta", cursive;
+  cursor: pointer;
+  margin: 20px;
+  border-radius: 5px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 99999;
+}
+
+
+#miGif {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
